@@ -1,0 +1,317 @@
+/* index.html footer style*/
+footer
+{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    color: #fff;
+    padding: 80px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.row
+{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col1
+{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.logo{
+    width:80px;
+    margin-bottom: 30px;
+}
+.col2
+{
+    width:fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+ul li
+{
+list-style: none;
+margin-bottom:12px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+/* contact.html style*/
+
+
+.contact
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+    min-height:100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:black;
+}
+
+
+
+.content
+{
+    max-width: 800px;
+    text-align:center;
+}
+
+.content h1{
+    font-size: 3rem;
+    font-weight: 500;
+    color: white;
+}
+.content p
+{
+    font-size: 1.3rem;
+    font-weight:500;
+    color: white;
+}
+
+.container
+{
+display:flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+gap: 50px;
+margin-top: 30px;
+}
+.contactinfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.box
+{
+    position: relative;
+    display: flex;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.icon
+{
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75em;
+    transition: 0.5s;
+    color: white;
+}
+
+.box:hover .icon
+{
+    background-color: aqua;
+    color:white;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size:1.4rem;
+    color:white;
+    font-weight:300;
+}
+
+
+.text h3{
+    font-weight: 500;
+    color:sandybrown;
+}
+
+
+.contfrm
+{
+    position: relative;
+    width: 40%;
+    min-height: 100%;
+    background-color: white;
+    padding: 60px;
+}
+
+
+.contfrm h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color:black
+}
+
+.contfrm .inputbox
+{
+
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.inputbox input,.inputbox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1.1rem;
+    margin:10px,0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.inputbox span
+{
+ position: absolute;
+ left:0;
+ pointer-events: none;
+ padding: 5px 0;
+ margin:10px 0;
+ font-size: 1.1rem;
+ color:#666;
+ transition:0.5s;    
+}
+
+
+
+/* index.html style*/
+
+main{
+    width:60%;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px,0px,3px,grey;
+    position: relative;
+
+}
+.slide
+{
+    width:100%;
+    height:100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.nav button
+{
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+
+/*destination.html style*/
+
+.destination-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tourtext h4
+  {
+  text-align: center;
+  font-size: 40px;
+  color:#333
+  }
+  .destination {
+    margin: 20px;
+    padding: 20px;
+    border:2px  #ccc;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .destination img {
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.05s;
+  }
+  
+  .destination h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+ .destination p {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+
+  }
+
+
+/*destination.html style*/
+
+.common-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.logo {
+    font-size:60px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+    color:white;
+  }
+  
+.main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.main-menu ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 30px;
+
+  }
+  
+  .main-menu ul li a {
+    color: #fff;
+    text-decoration:solid;
+  }
+  
+  
+.social-icons i
+{
+    padding: 10px 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;   
+}
